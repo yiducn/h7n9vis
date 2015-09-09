@@ -1,0 +1,30 @@
+<!doctype html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Basic Parallel Coordinates Example</title>
+	<link rel="stylesheet" type="text/css" href="../d3.parcoords.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="../../d3.js"></script>
+	<script src="../d3.parcoords.js" charset="utf-8"></script>
+</head>
+<body>
+<div id="example" class="parcoords" style="width:500px;height:150px"></div>
+<p>Demonstrates creating a parallel coordinates plot with axes using a 2-dimensional array of numbers.</p>
+</body>
+<script>
+var parData = d3.parcoords()("#example")
+  .data([
+    ["4","老",0,0,0,3 ],
+    ["6","nan",1,2,1,6 ],
+    ["3","女",1,2,1,6 ]
+  ]).dimensionTitles({
+      0: "性别",
+      1: "One",
+      4: "Four",
+      5: "Five"
+    });
+var parcoords = parData
+  .render()
+  .createAxes().brushable();
+
+</script>

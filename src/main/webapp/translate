@@ -1,0 +1,37 @@
+H7N9病例时空分析 Analyzing H7N9 patients 
+数据来源：各省市卫计委与各大门户网站  Data Source:Departments of health and family planning commission of all provinces and web portals in China
+中国科学院计算机网络信息中心 科学数据中心,北龙泽达(北京)数据科技有限公司
+Scientific Data Center, Computer Network Information Center, Chinese Academy of Sciences.
+ZeData(Beijing) LTD.
+数据可视化组 Data Visualization Group
+当前时间 Current Time
+显示或隐藏疫情的个体分布情况 Show or hide individual distribution of epidemic situation
+个体分布 Individual Distribution
+显示或隐藏疫情的群体分布情况 Show or hide group distribution of epidemic situation
+群体分布 Group Distribution
+男性Male女性Female
+显示平行坐标选择器 Show parallel coordinate selector
+平行坐标 Parallel Coordinate Selctor
+显示时间轴选择器 Show time selector
+时间轴 Time Selector
+选中时间轴的范围，点击播放该时间段动画 Select the range from the time selector, press to play the animation of the period
+按时间播放动画 Play Animation by Time		
+如何使用 How to Use
+使用说明 How to Use
+概述:本系统通过可视化的手段，将H7N9的发病情况进行可视化。
+Summary: This application show the morbidity of H7N9 using visualization techniques.
+功能介绍:Fuctions:
+1.点击"个体分布"与"群体分布"，显示发病人群在地图上的个体或群体分布情况。
+1.Press "Individual Distribution" and "Group Distribution" to show the individual or group distribution on the map
+2.个体分布情况中，圆点表示发病个体，圆点颜色代表性别，在地图上点击圆点，显示该个体详细信息。
+2.In individual distribution view, circle point means the individual patient, the color of it means gendar. Press the circle point on the map, then detail information of the patient is shown.
+3.群体分布情况中，通过热力图的形式进行展现，颜色越深，表明发病人数越多。
+3.In group distribution view, we use heatmap to show the situation. The darker the map is ,the more patients are.
+4."平行坐标"与"时间轴"是两个过滤组件，点击选择某个过滤组件，在该组件上进行数据过滤，过滤结果显示在地图上。
+4."Parallel Coordinate"and "Time" are two filter components. If you press each of the component, data is filtered by the component,then the result shows on the map.
+5.平行坐标与时间轴均可以通过在轴上的直接拖拽实现数据过滤。
+5.Both "Paralle Coordinate"and "Time" can filter data directly.
+6.在使用时间轴时，点击"按时间播放动画"，可以按时间从早到晚播放H7N9发病情况。
+6.When you use "Time" to filter, press "Play Animation by Time",the map will display from time to time.
+浏览器支持：Chrome,Firefox,Internet Explorer 9+
+Browsers support:

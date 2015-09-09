@@ -1,0 +1,22 @@
+<html>
+
+
+
+<script type="text/javascript" src='js/jquery.min.js'></script>
+<script type="text/javascript">
+	var temp;
+	function init(){
+		$.ajax({
+			url : 'birdflu/data.html',
+			data:{},
+			success:function(data){
+				console.log(data);
+				temp = data;
+			}
+		})
+	}
+
+</script>
+<body onload="init()">
+</body>
+</html>

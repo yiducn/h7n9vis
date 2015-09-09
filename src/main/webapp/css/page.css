@@ -1,0 +1,15 @@
+#map {
+	clear: both;
+	position: relative;
+	border: 1px solid black;   
+	
+	margin-left: auto !important;
+    margin-right: auto !important;
+}
+.gmnoprint {
+	display: none;
+}
+
+input[type='radio'],label{
+	cursor: pointer;
+}

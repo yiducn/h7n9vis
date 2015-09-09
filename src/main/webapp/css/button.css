@@ -1,0 +1,207 @@
+.ButtonPlayItemInactive:after{
+    background: linear-gradient(center top , #CCCCCC, #6578FE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(center top , #CCCCCC, #6578FE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-linear-gradient(top , #CCCCCC, #6578FE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    content: "播放";
+    cursor: pointer;
+    display: inline-block;
+    font: bold 14px/100% 微软雅黑;
+    height: 30px;
+    margin: 0 2px;
+    opacity: 0.9;
+    outline: medium none;
+    padding: 0.5em 2em 0.55em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    vertical-align: baseline;
+    width: 120px;
+}
+
+.ButtonAreaItemInactive:after{
+    background: linear-gradient(top , #CCCCCC, #6578FE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(top , #CCCCCC, #6578FE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-linear-gradient(#CCCCCC, #6578FE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    content: "区域分布";
+    cursor: pointer;
+    display: inline-block;
+    font: bold 14px/100% 微软雅黑;
+    height: 30px;
+    margin: 0 2px;
+    opacity: 0.9;
+    outline: medium none;
+    padding: 0.5em 2em 0.55em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    vertical-align: baseline;
+    width: 120px;
+}
+
+.ButtonPatientsItemInactive:after{
+    background: linear-gradient(top , #CCCCCC, #6578FE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(top , #CCCCCC, #6578FE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-linear-gradient( #CCCCCC, #6578FE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    content: "个体分布";
+    cursor: pointer;
+    display: inline-block;
+    font: bold 14px/100% 微软雅黑;
+    height: 30px;
+    margin: 0 2px;
+    opacity: 0.9;
+    outline: medium none;
+    padding: 0.5em 2em 0.55em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    vertical-align: baseline;
+    width: 120px;
+}
+
+.ButtonAreaItemActive:after{ 
+    background: linear-gradient(top , #CCCCCC, #FFFFFF) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(top , #CCCCCC, #FFFFFF) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-linear-gradient( #CCCCCC, #FFFFFF) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 120px;
+    height: 30px;
+    content:"区域分布";
+    display: inline-block;  
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */  
+    *display: inline;  
+    vertical-align: baseline;  
+    margin: 0 2px;  
+    outline: none;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    font:bold 14px/100% 微软雅黑;  
+    padding: .5em 2em .55em;  
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);  
+    border-radius: .5em;   
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);    
+    opacity:0.6;
+}
+
+.ButtonPatientsItemActive:after { 
+    background: linear-gradient(top , #CCCCCC, #FFFFFF) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(top , #CCCCCC, #FFFFFF) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-linear-gradient( #CCCCCC, #FFFFFF) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 120px;
+    height: 30px;
+    content:"个体分布";
+    display: inline-block;  
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */  
+    *display: inline;  
+    vertical-align: baseline;  
+    margin: 0 2px;  
+    outline: none;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    font:bold 14px/100% 微软雅黑;  
+    padding: .5em 2em .55em;  
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);  
+    border-radius: .5em;   
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    opacity:0.6;
+}
+
+.ButtonPlayItemActive:after { 
+    background: rgba(66, 139, 202, 1);
+    width: 120px;
+    height: 30px;
+    content:"播放";
+    display: inline-block;  
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */  
+    *display: inline;  
+    vertical-align: baseline;  
+    margin: 0 2px;  
+    outline: none;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    font:bold 14px/100% 微软雅黑;  
+    padding: .5em 2em .55em;  
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);  
+    border-radius: .5em;   
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+
+}
+
+.Panel {
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    right: 10px;
+    top: 20px;
+}
+
+.Panel2 {
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    right: 140px;
+    top: 20px;
+}
+
+.Panel3 {
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    right: 10px;
+    top: 220px;
+}
+
+.lMan{
+	width:30px;
+	height:10px;
+	background-color: rgb(91,192,222);
+	content:"男性";
+	text-align: center;  
+    text-decoration: none;  
+    font:bold 12px/100% 微软雅黑;  
+    color:white;
+    padding: .5em 2em .55em;  
+    border-radius: .5em;   
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+}
+.lWoman{
+	width:30px;
+	height:10px;
+	background-color: rgb(217,83,79);
+		content:"女性";
+	text-align: center;  
+    text-decoration: none;  
+    font:bold 12px/100% 微软雅黑;  
+    color:white;
+    padding: .5em 2em .55em;  
+    border-radius: .5em;   
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+}
